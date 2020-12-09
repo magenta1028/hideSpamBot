@@ -10,12 +10,12 @@ client.login("EMAIL OR PHONE NUMBER", "PASSWORD").then(() => {
 });
 
 client.on("message", (chat) => {
-    banWord.map((e) => {
-        if (JSON.stringify(chat.rawAttachment).includes(e) || chat.Text.includes(e)) {
+    for (let i = 0; i < banWord.length; i++) {
+        if (JSON.stringify(chat.rawAttachment).includes(banWord[i]) || chat.Text.includes(banWord[i])) {
             chat.hide();
             client.OpenLinkManager.kickMember(chat.channel, chat.sender.id);
             chat.replyText("F - U - C - K - I - N - G - S - P - A - M");
             break;
         }
-    })
+    }
 });
