@@ -14,14 +14,9 @@
 4. 봇 실행   
 5. banWord에 감지할 메세지 추가 (선택)
 
-# DEVICE UUID 얻는법
-1. HxD 설치 (https://mh-nexus.de/en/hxd/)   
-2. 봇 계정으로 PC에서 카카오톡 로그인   
-3. 작업관리자 실행 후 카카오톡 우클릭 - 덤프 파일 만들기 클릭   
-4. HxD에서 덤프 파일 오픈   
-5. device_uuid= 검색   
-6. device_uuid= 부터 %3D%3D 까지 복사   
-7. URI DECODE (https://www.urldecoder.org/)   
+# 업데이트 로그
+2020 - 12 - 10: 소스코드 추가   
+2020 - 12 - 10: 소스코드 수정 (break 문구 삭제)   
 
 # 사용한 라이브러리
 node-kakao (https://github.com/storycraft/node-kakao)
