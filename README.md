@@ -17,6 +17,7 @@
 2020 - 12 - 10: 메인 소스코드 수정 (break 문구 삭제)   
 2020 - 12 - 12: 랜덤 디바이스 UUID를 얻는 소스코드 추가   
 2020 - 12 - 12: 메인 소스코드 수정 (설정 부분 변화 및 로그인 함수 변화)
+2020 - 12 - 12: 메인 소스코드 수정 (loginRes -> error)
 
 # 사용한 라이브러리
 node-kakao (https://github.com/storycraft/node-kakao)
