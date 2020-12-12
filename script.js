@@ -43,7 +43,7 @@ async function login(email, password) {
                 process.exit(`[!] - 인증이 필요하여 인증번호를 요청하는 과정에서 오류가 발생했습니다. 오류 JSON: ${JSON.stringify(requestPasscodeRes, null, 2)}`);
             }
         } else {
-            console.error(`[!] - 로그인을 하는 과정에서 오류가 발생했습니다. 오류 JSON: ${JSON.stringify(loginRes, null, 2)}`);
+            console.error(`[!] - 로그인을 하는 과정에서 오류가 발생했습니다. 오류 JSON: ${JSON.stringify(error, null, 2)}`);
             process.exit();
         }
     }
