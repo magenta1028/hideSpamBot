@@ -9,15 +9,17 @@
 
 # 사용법
 1. Node Js 설치   
-2. 소스코드를 열어 알맞는것들을 채우기   
-3. 실행
+2. 소스코드를 열어 알맞는것들을 채우기 
+3. 모듈이 설치된 경로\node_modules\node-kakao\dist\api 에 auth-client.js 적용
+4. 실행
 
 # 업데이트 로그
 2020 - 12 - 10: 메인 소스코드 추가   
 2020 - 12 - 10: 메인 소스코드 수정 (break 문구 삭제)   
 2020 - 12 - 12: 랜덤 디바이스 UUID를 얻는 소스코드 추가   
 2020 - 12 - 12: 메인 소스코드 수정 (설정 부분 변화 및 로그인 함수 변화)   
-2020 - 12 - 12: 메인 소스코드 수정 (loginRes -> error)
+2020 - 12 - 12: 메인 소스코드 수정 (loginRes -> error)   
+2020 - 12 - 13: auth_client 소스코드 추가
 
 # 사용한 라이브러리
 node-kakao (https://github.com/storycraft/node-kakao)
