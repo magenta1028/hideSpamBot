@@ -9,9 +9,10 @@
 
 # 사용법
 1. Node Js 설치   
-2. 소스코드를 열어 알맞는것들을 채우기 
-3. 모듈이 설치된 경로\node_modules\node-kakao\dist\api 에 auth-client.js 적용
-4. 실행
+2. 사용할 폴더에 Shell을 열고 npm install node-kakao 를 입력   
+3. 소스코드를 열어 알맞는것들을 채우기 
+4. 모듈이 설치된 경로\node_modules\node-kakao\dist\api 에 auth-client.js 적용
+5. 실행
 
 # 업데이트 로그
 2020 - 12 - 10: 메인 소스코드 추가   
